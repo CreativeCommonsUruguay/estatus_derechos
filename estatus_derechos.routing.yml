@@ -1,0 +1,15 @@
+estatus_derechos.admin_settings:
+  path: '/admin/config/estatus_derechos'
+  defaults:
+    _form: '\Drupal\estatus_derechos\Form\ModuleConfigurationForm'
+    _title: 'Configuración del módulo Estatus de derechos de autor'
+  requirements:
+    _permission: 'administer site configuration'
+
+estatus_derechos.content:
+  path: '/estatus_derechos'
+  defaults:
+    _controller: '\Drupal\estatus_derechos\Controller\EstatusController::content'
+    _title: 'Estatus derechos'
+  requirements:
+    _permission: 'administer site configuration'

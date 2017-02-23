@@ -1,0 +1,9 @@
+name: Estatus de derechos
+description: Permite configurar el período de restricción de derechos de autor
+package: AUTORES
+dependencies:
+  - crea_estructura
+
+type: module
+core: 8.x
+configure: estatus_derechos.admin_settings
