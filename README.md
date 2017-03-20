@@ -1,1 +1,0 @@
-# estatus_derechos
