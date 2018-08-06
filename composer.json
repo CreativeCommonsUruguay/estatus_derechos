@@ -1,7 +1,7 @@
 {
     "name": "drupal/estatus_derechos",
     "description": "Permite configurar el período de restricción de derechos de autor",
-    "type": "drupal-module",
+    "type": "drupal-custom-module",
     "homepage": "https://github.com/CreativeCommonsUruguay/estatus_derechos",
     "license": "GPL",
     "authors": [
