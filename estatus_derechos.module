@@ -187,9 +187,9 @@ function estatus_derechos_entity_presave(Drupal\Core\Entity\EntityInterface $ent
     array_push($field_estatusderechos, $tidcodigo);
 
     $entity->set('field_estatusderechos', $field_estatusderechos);
-    $entity->set('status', 0);
-  }
-
+    
+    }
+    
 }
 
 function estatus_derechos_theme($existing, $type, $theme, $path) {
